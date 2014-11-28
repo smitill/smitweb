@@ -176,11 +176,11 @@
         .container .offset-by-fifteen { padding-left: 0; }
 
     
-    .content-menu                               { text-align: center; width: 120px; height: 80px; display: inline; position: fixed; }
+    .topholder > .content-menu                  { text-align: center; width: 120px; height: 80px; display: inline; position: fixed; background-color: #FFFFFF;}
     .side-menu                                  { width: 200px; height: 135px; left: 1170px; float: right; display: inline; position: fixed;}
     /*.top-bar.columns                            { width: 1000px; position: fixed; padding: 0; z-index: 999; background-color: #FFFFFF; margin-left: auto; margin-right: auto; }*/
     .topholder                                  { position: fixed; top: 0; left: 0; right: 0; height: 0; text-align: center; z-index: 999;}
-    .topholder > .top-bar.columns               { display: none; text-align: left; z-index: 999; width: 1000px; background-color: #FFFFFF;}
+    .topholder > .top-bar.columns               { display: none; text-align: left; z-index: 999; width: 1000px; }
 }
 
 /* #Mobile (Landscape)
