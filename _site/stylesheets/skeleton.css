@@ -181,7 +181,7 @@
     /*.top-bar.columns                            { width: 1000px; position: fixed; padding: 0; z-index: 999; background-color: #FFFFFF; margin-left: auto; margin-right: auto; }*/
     .topholder                                  { width: 300px; position: fixed; top: 0; left: 0; right: 0; height: 0; text-align: center; z-index: 999;}
     .topholder > .top-bar.columns               { display: none; text-align: left; z-index: 999; width: 1000px; }
-    .topholder > .content-menu-mobile.columns   { width: 300px; background-color: #000000;  z-index: 999; position: fixed;}
+    .topholder > .content-menu-mobile.columns   { display: inline; width: 600px; background-color: #000000;  z-index: 999; position: fixed;}
 }
 
 /* #Mobile (Landscape)
