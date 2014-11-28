@@ -70,12 +70,13 @@
     .container .offset-by-fifteen               { padding-left: 900px; }
 
     /* Menu */
-    .topholder > .content-menu                  { text-align: center; width: 170px; height: 135px; display: inline-block; position: fixed; }
-    .side-menu                                  { width: 200px; height: 135px; left: 1170px; float: right; display: inline; position: fixed;}
-    /*.top-bar.columns                            { width: 1000px; position: fixed; padding: 0; z-index: 999; background-color: #FFFFFF; margin-left: auto; margin-right: auto; }*/
-    .topholder                                  { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; text-align: center;}
-    .topholder > .top-bar.columns               { display: inline-block; text-align: left; z-index: 999; width: 1000px; background-color: #FFFFFF;}
-    .topholder > .content-menu-mobile.columns   { display: none;}
+    .topholder > .content-menu                          { text-align: center; width: 170px; height: 135px; display: inline-block; position: fixed; }
+    .side-menu                                          { width: 200px; height: 135px; left: 1170px; float: right; display: inline; position: fixed;}
+    /*.top-bar.columns                                  { width: 1000px; position: fixed; padding: 0; z-index: 999; background-color: #FFFFFF; margin-left: auto; margin-right: auto; }*/
+    .topholder                                          { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; text-align: center;}
+    .topholder > .top-bar.columns                       { display: inline-block; text-align: left; z-index: 999; width: 1000px; background-color: #FFFFFF;}
+    .mobile-topholder > .content-menu-mobile.columns    { display: none; }
+    .mobile-topholder                                   { display: none; }
 /* #Tablet (Portrait)
 ================================================== */
 
@@ -176,8 +177,8 @@
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
 
-        .topholder > .content-menu                           { text-align: center; width: 300px; height: 80px; display: none; position: fixed; background-color: #FFFFFF; z-index: 999;}
-        .side-menu                                           { width: 200px; height: 135px; left: 1170px; float: right; display: none; position: fixed;}*/
+        .topholder > .content-menu                           { display: none; }
+        .side-menu                                           { display: none; }
         .topholder                                           { display: none; }
         .mobile-topholder                                    { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; }
         .mobile-topholder > .content-menu-mobile.columns     { z-index: 999; position: fixed; text-align: center; display: inline; background-color: #FFFFFF;}
