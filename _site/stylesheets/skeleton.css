@@ -76,7 +76,6 @@
     .topholder                                          { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; text-align: center;}
     .topholder > .top-bar.columns                       { display: inline-block; text-align: left; z-index: 999; width: 1000px; background-color: #FFFFFF;}
     .mobile-topholder > .content-menu-mobile.columns    { display: none; }
-    .mobile-topholder                                   { display: none; }
 /* #Tablet (Portrait)
 ================================================== */
 
