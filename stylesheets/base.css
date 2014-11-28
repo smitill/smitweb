@@ -129,7 +129,8 @@
 		height: 54%;
 		width: 60%;
 		margin-top: 28px;
-		display: inline;}
+		display: inline;
+		float: left;}
 
 	img.mobile-logo {
 		height: 20%;
