@@ -212,6 +212,12 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
+
+        .topholder > .content-menu                           { display: none; }
+        .side-menu                                           { display: none; }
+        .topholder                                           { display: none; }
+        .mobile-topholder                                    { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; }
+        .mobile-topholder > .content-menu-mobile.columns     { z-index: 999; position: fixed; text-align: center; display: inline; background-color: #FFFFFF;}
     }
 
 
