@@ -217,7 +217,7 @@
         .side-menu                                           { display: none; }
         .topholder                                           { display: none; }
         .mobile-topholder                                    { position: fixed; top: 0; left: 0; right: 0; height: 0; z-index: 999; }
-        .mobile-topholder > .content-menu-mobile.columns     { z-index: 999; position: fixed; text-align: center; display: inline; background-color: #FFFFFF;}
+        .mobile-topholder > .content-menu-mobile.columns     { width: 100%; z-index: 999; position: fixed; text-align: center; display: inline; background-color: #FFFFFF;}
     }
 
 
