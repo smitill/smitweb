@@ -129,7 +129,13 @@
 		height: 54%;
 		width: 60%;
 		margin-top: 28px;
-		display: inline;}	
+		display: inline;}
+
+	img.mobile-logo {
+		height: 30%;
+		width: 35%;
+		display: inline;
+	}	
 
 
 /* #Buttons
