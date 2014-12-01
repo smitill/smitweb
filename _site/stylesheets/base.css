@@ -75,7 +75,7 @@
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0;
-		font-family: MoonFlower; }
+		font-family: 'MoonFlower'; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -92,7 +92,7 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 	hr.top { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0px 0px 0px; height: 0;}
-	@font-face { font-family: 'MoonFlower'; src: url('@{plChildRoot}fonts/Moon_Flower_Bold.TTF') format('truetype'); }
+	@font-face { font-family: 'MoonFlower'; src: url('fonts/Moon_Flower_Bold.TTF') format('truetype'); }
 
 /* #Links
 ================================================== */
