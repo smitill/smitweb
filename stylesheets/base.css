@@ -92,7 +92,7 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 	hr.top { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 0px 0px 0px; height: 0;}
-	@font-face { font-family: MoonFlower; src: url('fonts/Moon_Flower_Bold.TTF'); }
+	@font-face { font-family: 'MoonFlower'; src: url('@{plChildRoot}fonts/Moon_Flower_Bold.TTF') format('truetype'); }
 
 /* #Links
 ================================================== */
