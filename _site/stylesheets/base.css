@@ -139,6 +139,11 @@
 		display: inline;
 	}	
 
+	img.icon-logo {
+		height: 3%;
+		width: 3%;
+	}
+
 
 /* #Buttons
 ================================================== */
