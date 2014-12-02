@@ -21,6 +21,17 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link type="text/css" rel="stylesheet" href="/scripts/src/css/jquery.mmenu.all.css" />
+
+	<!-- Scripts
+  ================================================== -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../src/js/jquery.mmenu.min.all.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('nav#menu').mmenu();
+		});
+	</script>
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -63,6 +74,28 @@
 	</div>
 
 	<div class="page">
+
+	<!-- Navigation Menu -->
+	<nav id="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About us</a>
+						<ul>
+							<li><a href="#about/history">History</a></li>
+							<li><a href="#about/team">The team</a>
+								<ul>
+									<li><a href="#about/team/management">Management</a></li>
+									<li><a href="#about/team/sales">Sales</a></li>
+									<li><a href="#about/team/development">Development</a></li>
+								</ul>
+							</li>
+							<li><a href="#about/address">Our address</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			
 	<div class="container">
 
 		<div class="sixteen columns">	
